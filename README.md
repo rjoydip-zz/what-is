@@ -109,7 +109,7 @@ An object conforming to the Observer interface is usually given to the `observab
 
 ## What is ReactiveX?
 
-An `API` for `asynchronous` programming with `observable` `streams`. [see more](http://reactivex.io/)
+An `API` for `asynchronous` programming with `observable` `streams`. [see more](http://reactivex.io)
 
 ### Tags: ***api, asynchronous, observable, streams***
 
