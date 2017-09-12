@@ -5,7 +5,7 @@
 <h4 align="center">What is in javascript?</h4>
 
 <p align="center">
-  [![Build Status](https://travis-ci.org/rjoydip/what-is.svg?branch=master)](https://travis-ci.org/rjoydip/what-is)
+  <a href="https://travis-ci.org/rjoydip/what-is"><img src="https://travis-ci.org/rjoydip/what-is.svg?branch=master" alt="travis"></a>
 </p>
 
 <h3 align="center">
