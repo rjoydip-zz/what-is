@@ -462,22 +462,22 @@ pre {
 	padding-left: 40px !important;
 }
 
-.markdown-body::before {
+body::before {
 	display: table;
 	content: "";
 }
 
-.markdown-body::after {
+body::after {
 	display: table;
 	clear: both;
 	content: "";
 }
 
-.markdown-body>*:first-child {
+body>*:first-child {
 	margin-top: 0 !important;
 }
 
-.markdown-body>*:last-child {
+body>*:last-child {
 	margin-bottom: 0 !important;
 }
 
