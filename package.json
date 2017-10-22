@@ -1,7 +1,7 @@
 {
   "name": "what-is",
   "version": "1.0.0",
-  "description": "> What is in javascript?.",
+  "description": "What is in javascript?",
   "main": "index.js",
   "scripts": {
     "build:docs": "rm -rf dist && node index.js",
