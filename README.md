@@ -39,7 +39,7 @@ As a `multi-paradigm` language, JavaScript supports `event-driven`, `functional`
 
 A `JavaScript runtime` built on `Chrome's V8` JavaScript `engine`. Node.js is an `asynchronous` `event driven`. It is designed to build `scalable` network applications. The `architecture` design has been influenced by, systems like `Ruby's Event Machine` or `Python's Twisted`. The event model presents an `event loop` as a runtime construct instead of as a library. It is designed without `threads`, doesn't mean you cannot take advantage of multiple cores in your environment. Child processes can be spawned by using our `child_process.fork()` API, and are designed to be easy to communicate with. Built upon that same interface is the `cluster` module, which allows you to share `sockets` between processes to enable `load balancing` over your cores.
 
-#### Tags: ***JavaScript runtime, Chrome's V8, engine, asynchronous, event driven, scalable, architecture, event loop, cluster, sockets, load balancing***
+#### Tags: ***javaScript runtime, chrome's V8, engine, asynchronous, event driven, scalable, architecture, event loop, cluster, sockets, load balancing***
 
 ## Angular.js
 
@@ -47,7 +47,7 @@ A `JavaScript runtime` built on `Chrome's V8` JavaScript `engine`. Node.js is an
 
 AngularJS is a JavaScript-based open-source `front-end` web application `framework` mainly maintained by `Google` and by a community of individuals and corporations to address many of the challenges encountered in developing `single-page` applications.
 
-#### Tags: ***front-end, framework, Google, single-page***
+#### Tags: ***front-end, framework, google, single-page***
 
 ## Angular
 
@@ -71,7 +71,7 @@ React is a `declarative`, `efficient`, and `flexible` JavaScript `library` for b
 
 Vue (pronounced /vjuː/, like view) is a `progressive` framework for building user interfaces. Unlike other `monolithic` frameworks, Vue is designed from the ground up to be `incrementally adoptable`. The core library is focused on the `view layer` only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated `Single-Page Applications` when used in combination with modern tooling and supporting `libraries`.
 
-#### Tags: ***progressive, monolithic, incrementally adoptable, view layer, Single-Page Applications, libraries***
+#### Tags: ***progressive, monolithic, incrementally adoptable, view layer, single-page, applications, libraries***
 
 ## Typescript
 
@@ -79,13 +79,15 @@ Vue (pronounced /vjuː/, like view) is a `progressive` framework for building us
 
 `TypeScript` is a language for `application-scale` JavaScript. TypeScript adds `optional types`, `classes`, and `modules` to JavaScript. TypeScript supports tools for large-scale JavaScript applications for `any browser`, for `any host`, on `any OS`. TypeScript compiles to `readable`, `standards-based` JavaScript. [see more](https://www.typescriptlang.org)
 
-#### Tags: ***TypeScript, application-scale, optional types, classes, modules, any browser, any host, any OS, readable, standards-based***
+#### Tags: ***typeScript, application-scale, optional types, classes, modules, any browser, any host, any OS, readable, standards-based***
 
 ## Rx.js
 
-```js
-/* TODO */
-```
+### What is Rx.js?
+
+`Reactive` programming is an `asynchronous` programming paradigm concerned with `data streams` and the `propagation` of change. RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using `observables` that makes it easier to compose `asynchronous` or `callback-based` code
+
+#### Tags: ***reactive, asynchronous, data streams, propagation, observables, callback-based***
 
 ## License
 
