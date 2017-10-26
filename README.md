@@ -86,7 +86,7 @@ Operators take `configuration` options, and they return a function that takes a 
 
 An `interface` for a consumer of `push-based` `notifications` delivered by an Observable.
 
-```js
+```ts
 interface Observer<T> {
   closed?: boolean;
   next: (value: T) => void;

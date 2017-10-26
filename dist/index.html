@@ -7,11 +7,12 @@
     <title>What is *?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;highlight.js&#x2F;9.12.0&#x2F;styles&#x2F;default.min.css">
   </head>
 
   <body>
     <h1 align="center">
-      What is
+      What Is
     </h1>
     <h4 align="center">What is in javascript?</h4>
     <p>
@@ -155,11 +156,11 @@
     <h3 id="tags%3A-operators%2C-observables%2C-collections%2C-filter()%2C-concat()%2C-flatmap()%2C-configuration%2C-observes">Tags: <em><strong>operators, observables, collections, filter(), concat(), flatMap(), configuration, observes</strong></em></h3>
     <h2 id="observer">Observer</h2>
     <p>An <code>interface</code> for a consumer of <code>push-based</code> <code>notifications</code> delivered by an Observable.</p>
-    <pre><code class="language-js">interface Observer&lt;T&gt; {
-  closed?: boolean;
-  next: <span class="hljs-function">(<span class="hljs-params">value: T</span>) =&gt;</span> <span class="hljs-keyword">void</span>;
-  error: <span class="hljs-function">(<span class="hljs-params">err: any</span>) =&gt;</span> <span class="hljs-keyword">void</span>;
-  complete: <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">void</span>;
+    <pre><code class="language-ts"><span class="hljs-keyword">interface</span> Observer&lt;T&gt; {
+  closed?: <span class="hljs-built_in">boolean</span>;
+  next: <span class="hljs-function">(<span class="hljs-params">value: T</span>) =&gt;</span> <span class="hljs-built_in">void</span>;
+  error: <span class="hljs-function">(<span class="hljs-params">err: <span class="hljs-built_in">any</span></span>) =&gt;</span> <span class="hljs-built_in">void</span>;
+  complete: <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-built_in">void</span>;
 }
 </code></pre>
     <p>An object conforming to the Observer interface is usually given to the <code>observable.subscribe(observer)</code> method, and the Observable will call the Observer’s <code>next(value)</code> method to provide notifications. A well-behaved Observable

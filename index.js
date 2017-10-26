@@ -6,6 +6,8 @@ const mkdirp = require('mkdirp')
 const hljs = require('highlight.js')
 const Mustache = require('mustache')
 
+const HIGHLIGHT_CSS= 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css'
+
 // Actual default values
 const md = require('markdown-it')({
     html: true,
@@ -29,7 +31,8 @@ const result = md.render(fs.readFileSync(path.join(__dirname, 'README.md'), 'utf
 const output = pretty(
     Mustache.render(
         fs.readFileSync(path.join(__dirname, 'docs/docs.tmpl.html'), 'utf8'), {
-            data: result
+            __body_content: result,
+            __highlight_css: HIGHLIGHT_CSS
         }
     )
 )
