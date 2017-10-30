@@ -20,6 +20,7 @@
     - [What is Typescript?](#what-is-typescript)
 - [Rx.js](#rx.js)
     - [What is Rx.js?](#what-is-rxjs)
+    - [Observer](#observer)
 - [Others](#others)
     - [What is ReactiveX?](#what-is-reactiveX)
 
@@ -98,6 +99,23 @@ Vue (pronounced /vjuː/, like view) is a `progressive` framework for building us
 Operators take `configuration` options, and they return a function that takes a source observable. When executing this returned function, the operator `observes` the source observable’s emitted values, transforms them, and returns a new observable of those transformed values.
 
 #### Tags: ***operators, observables, collections, filter(), concat(), flatMap(), configuration, observes***
+
+### Observer
+
+An `interface` for a consumer of `push-based` `notifications` delivered by an Observable.
+
+```js
+interface Observer<T> {
+  closed?: boolean;
+  next: (value: T) => void;
+  error: (err: any) => void;
+  complete: () => void;
+}
+```
+
+An object conforming to the Observer interface is usually given to the `observable.subscribe(observer)` method, and the Observable will call the Observer's `next(value)` method to provide notifications. A well-behaved Observable will call an Observer's `complete()` method exactly once or the Observer's `error(err)` method exactly once, as the last notification delivered.
+
+#### Tags: ***interface, push-based, notifications***
 
 ## Others
 
