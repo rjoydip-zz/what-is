@@ -89,6 +89,14 @@ Vue (pronounced /vjuː/, like view) is a `progressive` framework for building us
 
 #### Tags: ***reactive, asynchronous, data streams, propagation, observables, callback-based***
 
+### Operators
+
+`Operators` are functions that build on the `observables` foundation to enable `sophisticated` manipulation of `collections`. For example, RxJS defines operators such as map(), `filter()`, `concat()`, and `flatMap()`.
+
+Operators take `configuration` options, and they return a function that takes a source observable. When executing this returned function, the operator `observes` the source observable’s emitted values, transforms them, and returns a new observable of those transformed values.
+
+#### Tags: ***operators, observables, collections, filter(), concat(), flatMap(), configuration, observes***
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
