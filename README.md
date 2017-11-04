@@ -5,11 +5,11 @@
 ## Contents
 
 - [Javascript](#javascript)
-- [Node JS](#node_js)
-- [Angular.js](#angular.js)
+- [Node.js](#nodejs)
+- [Angular.js](#angularjs)
 - [Angular](#angular)
-- [React.js](#react.js)
-- [Vue.js](#vue.js)
+- [React.js](#reactjs)
+- [Vue.js](#vuejs)
 
 ## Javascript
 
