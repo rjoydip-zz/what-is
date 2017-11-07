@@ -4,7 +4,7 @@
   "description": "What is in javascript?",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:docs && npm run build deploy",
+    "start": "npm run build:docs && npm run deploy",
     "cpx-run": "cpx docs/style.css dist && cpx README.md dist && cpx package.json dist",
     "build:docs": "rm -rf dist && npm run cpx-run && node index.js",
     "predeploy": "npm run build:docs",
