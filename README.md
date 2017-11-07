@@ -47,17 +47,19 @@ AngularJS is a JavaScript-based open-source `front-end` web application `framewo
 
 ## Angular
 
+### What is Angular?
+
+Angular is a platform that makes it easy to build applications with the web. Angular combines declarative `templates`, `dependency injection`, `end to end tooling`, and `integrated` best practices to solve development challenges. Angular empowers developers to build applications that live on the `web`, `mobile`, or the `desktop`
+
+#### Tags: ***templates, dependency injection, end to end tooling, integrated, web, mobile, desktop***
+
+## React.js
+
 ### What is react.js?
 
 React is a `declarative`, `efficient`, and `flexible` JavaScript `library` for building `user interfaces`. It lets you compose complex UIs from small and isolated pieces of code called `“components”`
 
 #### Tags: ***declarative, efficient, flexible, library, user interfaces, components***
-
-## React.js
-
-```js
-/* TODO */
-```
 
 ## Vue.js
 
