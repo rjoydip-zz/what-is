@@ -20,6 +20,7 @@
     - [What is Typescript?](#what-is-typescript)
 - [Rx.js](#rx.js)
     - [What is Rx.js?](#what-is-rxjs)
+- [Others](#others)
 
 ## Javascript
 
@@ -96,6 +97,12 @@ Vue (pronounced /vjuː/, like view) is a `progressive` framework for building us
 Operators take `configuration` options, and they return a function that takes a source observable. When executing this returned function, the operator `observes` the source observable’s emitted values, transforms them, and returns a new observable of those transformed values.
 
 #### Tags: ***operators, observables, collections, filter(), concat(), flatMap(), configuration, observes***
+
+## Others
+
+```js
+/* TODO */
+```
 
 ## License
 
