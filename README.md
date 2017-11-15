@@ -21,7 +21,7 @@ Alongside HTML and CSS, JavaScript is one of the three core technologies of the 
 
 As a `multi-paradigm` language, JavaScript supports `event-driven`, `functional`, and imperative (including `object-oriented` and `prototype-based`) programming styles. It has an API for working with `text`, `arrays`, `dates`, `regular expressions`, and `basic manipulation` of the `DOM`, but the language itself does not include any `I/O`, such as `networking`, `storage`, or `graphics` `facilities`, relying for these upon the host environment in which it is embedded. [see more](https://en.wikipedia.org/wiki/JavaScript)
 
-#### Tag: ***`javascript`, `high-level`, `interpreted programming`, `dynamic`, `weakly typed`, `prototype-based`, `multi-paradigm`, `multi-paradigm`, `event-driven`, `object-oriented`, `prototype-based`***
+#### Tags: ***javascript, high-level, interpreted programming, dynamic, weakly typed, prototype-based, multi-paradigm, event-driven, object-oriented, prototype-based***
 
 ## Node JS
 
