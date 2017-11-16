@@ -102,7 +102,7 @@ Operators take `configuration` options, and they return a function that takes a 
 
 ### What is ReactiveX?
 
-An `API` for `asynchronous` programming with `observable` `streams`.
+An `API` for `asynchronous` programming with `observable` `streams`. [see more](http://reactivex.io/)
 
 #### Tags: ***api, asynchronous, observable, streams***
 
