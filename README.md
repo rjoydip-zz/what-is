@@ -10,6 +10,7 @@
 - [Angular](#angular)
 - [React.js](#reactjs)
 - [Vue.js](#vuejs)
+- [Typescript](#typescript)
 
 ## Javascript
 
@@ -48,6 +49,12 @@ As a `multi-paradigm` language, JavaScript supports `event-driven`, `functional`
 ```
 
 ## Vue.js
+
+```js
+/* TODO */
+```
+
+## Typescript
 
 ```js
 /* TODO */
