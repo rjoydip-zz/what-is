@@ -7,7 +7,7 @@
     "build:docs": "rm -rf dist && node index.js",
     "deploy:gh": "git branch -D gh-pages; git checkout -b gh-pages && npm run build:docs && git add -f dist && git commit -m 'Publish website' && git push -fu origin gh-pages; git checkout master",
     "predeploy": "npm run build:docs",
-    "deploy": "gh-pages -d build:docs"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
