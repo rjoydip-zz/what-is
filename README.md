@@ -5,12 +5,14 @@
 ## Contents
 
 - [Javascript](#javascript)
+    - [What is javascript?](#what-is-javascript)
 - [Node.js](#nodejs)
 - [Angular.js](#angularjs)
 - [Angular](#angular)
 - [React.js](#reactjs)
 - [Vue.js](#vuejs)
 - [Typescript](#typescript)
+    - [What is Typescript?](#what-is-typescript?)
 
 ## Javascript
 
@@ -56,9 +58,11 @@ As a `multi-paradigm` language, JavaScript supports `event-driven`, `functional`
 
 ## Typescript
 
-```js
-/* TODO */
-```
+### What is typescript?
+
+`TypeScript` is a language for `application-scale` JavaScript. TypeScript adds `optional types`, `classes`, and `modules` to JavaScript. TypeScript supports tools for large-scale JavaScript applications for `any browser`, for `any host`, on `any OS`. TypeScript compiles to `readable`, `standards-based` JavaScript. [see more](https://www.typescriptlang.org)
+
+#### Tags: ***TypeScript, application-scale, optional types, classes, modules, any browser, any host, any OS, readable, standards-based***
 
 ## License
 
