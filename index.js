@@ -43,9 +43,10 @@ mkdirp(path.join(__dirname, 'dist'), (err) => {
         fs.writeFile(path.join(__dirname, 'dist', 'index.html'), output, (err) => {
             if (err) console.log(err)
             else {
-                fse.copy(path.join(__dirname, 'docs', 'style.css'), path.join(__dirname, 'dist', 'style.css'))
-                    .then(() => console.log('success!'))
-                    .catch(err => console.error(err))
+                console.log('success!')
+                // fse.copy(path.join(__dirname, 'docs', 'style.css'), path.join(__dirname, 'dist', 'style.css'))
+                //     .then(() => console.log('success!'))
+                //     .catch(err => console.error(err))
             }
         })
     }
