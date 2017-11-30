@@ -7,6 +7,7 @@
 - [Javascript](#javascript)
     - [What is javascript?](#what-is-javascript)
 - [Node.js](#nodejs)
+    - [What is node.js?](#what-is-node.js)
 - [Angular.js](#angularjs)
 - [Angular](#angular)
 - [React.js](#reactjs)
@@ -28,9 +29,11 @@ As a `multi-paradigm` language, JavaScript supports `event-driven`, `functional`
 
 ## Node JS
 
-```js
-/* TODO */
-```
+### What is node.js?
+
+A `JavaScript runtime` built on `Chrome's V8` JavaScript `engine`. Node.js is an `asynchronous` `event driven`. It is designed to build `scalable` network applications. The `architecture` design has been influenced by, systems like `Ruby's Event Machine` or `Python's Twisted`. The event model presents an `event loop` as a runtime construct instead of as a library. It is designed without `threads`, doesn't mean you cannot take advantage of multiple cores in your environment. Child processes can be spawned by using our `child_process.fork()` API, and are designed to be easy to communicate with. Built upon that same interface is the `cluster` module, which allows you to share `sockets` between processes to enable `load balancing` over your cores.
+
+#### Tags: ***JavaScript runtime, Chrome's V8, engine, asynchronous, event driven, scalable, architecture, event loop, cluster, sockets, load balancing***
 
 ## Angular.js
 
