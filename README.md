@@ -4,6 +4,14 @@
 
 <h4 align="center">What is in javascript?</h4>
 
+<p align="center">
+  [![Build Status](https://travis-ci.org/rjoydip/what-is.svg?branch=master)](https://travis-ci.org/rjoydip/what-is)
+</p>
+
+<h3 align="center">
+  <a href="https://bitmidi.com">bitmidi.com</a>
+</h3>
+
 [[toc]]
 
 # Javascript
