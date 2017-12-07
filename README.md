@@ -1,6 +1,6 @@
 # What is it?
 
-> What is it? Anything in javascript world.
+> What is it? Anything in javascript.
 
 ## Contents
 
