@@ -39,9 +39,11 @@ A `JavaScript runtime` built on `Chrome's V8` JavaScript `engine`. Node.js is an
 
 ## Angular.js
 
-```js
-/* TODO */
-```
+### What is angular.js?
+
+AngularJS is a JavaScript-based open-source `front-end` web application `framework` mainly maintained by `Google` and by a community of individuals and corporations to address many of the challenges encountered in developing `single-page` applications.
+
+#### Tags: ***front-end, framework, Google, single-page***
 
 ## Angular
 
