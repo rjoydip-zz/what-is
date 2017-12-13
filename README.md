@@ -2,7 +2,7 @@
   What Is
 </h1>
 
-<h4 align="center">What is in javascript?</h4>
+<h2 align="center">What is in javascript?</h2>
 
 <p align="center">
   <a href="https://travis-ci.org/rjoydip/what-is"><img src="https://travis-ci.org/rjoydip/what-is.svg?branch=master" alt="travis"></a>
