@@ -24,6 +24,14 @@ As a `multi-paradigm` language, JavaScript supports `event-driven`, `functional`
 
 ### Tags: ***javascript, high-level, interpreted programming, dynamic, weakly typed, prototype-based, multi-paradigm, event-driven, object-oriented, prototype-based***
 
+## Promise
+
+The `Promise` object represents the possible completion (or failure) of an `asynchronous` operation and its resulting value.
+
+![promises architecture](https://mdn.mozillademos.org/files/8633/promises.png)
+
+### Tags: ***promise, asynchronous***
+
 # Node JS
 
 ## What is node.js?

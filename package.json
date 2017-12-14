@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build:docs && micro",
-    "cpx-run": "cpx docs/style.css dist && cpx README.md dist && cpx package.json dist",
+    "cpx-run": "cpx docs/index.js dist && cpx docs/style.css dist && cpx README.md dist && cpx package.json dist",
     "build:docs": "rm -rf dist && npm run cpx-run && node docs-gen.js",
     "predeploy": "npm run build:docs",
     "deploy": "gh-pages -d dist"

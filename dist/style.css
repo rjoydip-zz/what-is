@@ -793,64 +793,75 @@ hr {
 	Custom style			  
 ********************************/
 
-.table-of-contents {
-	margin: 50px 0;
-	background-color: #E64A19;
-}
-
 .table-of-contents ul {
-	padding: 0;
-  margin: 0;
+	background: #48cfad;
 	list-style: none;
-	position: relative;
-	}
-	
+	margin: 0;
+	padding: 0;
+}
+
 .table-of-contents ul li {
-	display:inline-block;
-	background-color: #E64A19;
-	}
-
-.table-of-contents a {
-	display:block;
-	padding:0 10px;	
-	color:#FFF;
-	font-size:20px;
-	line-height: 60px;
-	text-decoration:none;
-}
-
-.table-of-contents a:hover { 
-	background-color: #000000; 
-}
-
-/* Hide Dropdowns by Default */
-.table-of-contents ul ul {
-	display: none;
-	position: absolute; 
-	top: 60px; /* the height of the main .table-of-contents */
-}
-	
-/* Display Dropdowns on Hover */
-.table-of-contents ul li:hover > ul {
-	display:inherit;
-}
-	
-/* Fisrt Tier Dropdown */
-.table-of-contents ul ul li {
-	width:170px;
-	float:none;
-	display:list-item;
 	position: relative;
+	display: inline-block;
+	margin-right: -4px;
+	text-align: center;
+	width: 10%;
 }
 
-/* Second, Third and more Tiers	*/
-.table-of-contents ul ul ul li {
-	position: relative;
-	top:-60px; 
-	left:170px;
+.table-of-contents ul li:first-child a {
+	background: #37bc9b;
+	width: 100px;
+	padding: 15px 0;
 }
 
-	
-/* Change this in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
+.table-of-contents ul li:last-child {
+	margin: 0;
+}
+
+.table-of-contents ul li a {
+	display: block;
+	background: #48cfad;
+	padding: 15px 20px;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+.table-of-contents ul li a:hover {
+	background: #37bc9b;
+}
+
+.table-of-contents ul li ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 240px;
+	border-bottom: 4px solid #48cfad;
+}
+
+.table-of-contents ul li ul li {
+	display: block;
+	width: 100%;
+	margin: 0;
+	text-align: left;
+}
+
+.table-of-contents ul li ul li a {
+	display: block;
+	background: #3a3a3a;
+	padding: 10px 15px;
+}
+
+.table-of-contents ul li ul li a:first-child {
+	background: #3a3a3a;
+	width: auto;
+	border-left: 4px solid transparent;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+
+.table-of-contents ul li ul li a:hover {
+	background: #333;
+	border-left: 4px solid #48cfad;
+}
