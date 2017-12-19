@@ -7,13 +7,13 @@
 - [Javascript](#javascript)
     - [What is javascript?](#what-is-javascript)
 - [Node.js](#nodejs)
-    - [What is node.js?](#what-is-node.js)
+    - [What is node.js?](#what-is-node-js)
 - [Angular.js](#angularjs)
 - [Angular](#angular)
 - [React.js](#reactjs)
 - [Vue.js](#vuejs)
 - [Typescript](#typescript)
-    - [What is Typescript?](#what-is-typescript?)
+    - [What is Typescript?](#what-is-typescript)
 
 ## Javascript
 
