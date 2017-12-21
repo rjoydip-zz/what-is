@@ -7,10 +7,11 @@
 - [Javascript](#javascript)
     - [What is javascript?](#what-is-javascript)
 - [Node.js](#nodejs)
-    - [What is node.js?](#what-is-node-js)
+    - [What is node.js?](#what-is-nodejs)
 - [Angular.js](#angularjs)
 - [Angular](#angular)
 - [React.js](#reactjs)
+    - [What is react.js?](#what-is-reactjs)
 - [Vue.js](#vuejs)
 - [Typescript](#typescript)
     - [What is Typescript?](#what-is-typescript)
@@ -43,9 +44,11 @@ A `JavaScript runtime` built on `Chrome's V8` JavaScript `engine`. Node.js is an
 
 ## Angular
 
-```js
-/* TODO */
-```
+### What is react.js?
+
+React is a `declarative`, `efficient`, and `flexible` JavaScript `library` for building `user interfaces`. It lets you compose complex UIs from small and isolated pieces of code called `“components”`
+
+#### Tags: ***declarative, efficient, flexible, library, user interfaces, components***
 
 ## React.js
 
