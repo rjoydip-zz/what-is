@@ -10,7 +10,7 @@ before_install:
   - npm install
 
 script:
-  - npm run build:docs
+  - npm run docs:gen
 
 git:
   depth: 5

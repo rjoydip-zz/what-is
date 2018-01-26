@@ -1,3 +1,8 @@
+---
+actionText: Code Of Conduct
+actionLink: /code-of-conduct/
+---
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
