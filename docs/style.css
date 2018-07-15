@@ -788,3 +788,69 @@ kbd {
 hr {
 	border-bottom-color: #eee;
 }
+
+/********************************
+	Custom style			  
+********************************/
+
+.table-of-contents {
+	margin: 50px 0;
+	background-color: #E64A19;
+}
+
+.table-of-contents ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+.table-of-contents ul li {
+	display:inline-block;
+	background-color: #E64A19;
+	}
+
+.table-of-contents a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+.table-of-contents a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+.table-of-contents ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main .table-of-contents */
+}
+	
+/* Display Dropdowns on Hover */
+.table-of-contents ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+.table-of-contents ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+.table-of-contents ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
