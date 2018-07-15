@@ -100,9 +100,11 @@ Operators take `configuration` options, and they return a function that takes a 
 
 ## Others
 
-```js
-/* TODO */
-```
+### What is ReactiveX?
+
+An `API` for `asynchronous` programming with `observable` `streams`.
+
+#### Tags: ***api, asynchronous, observable, streams***
 
 ## License
 
