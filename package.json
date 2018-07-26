@@ -1,14 +1,13 @@
 {
   "name": "what-is",
+  "title": "What Is",
   "version": "1.0.0",
   "description": "What is in javascript?",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:docs && micro",
-    "cpx-run": "cpx docs/index.js dist && cpx docs/style.css dist && cpx README.md dist && cpx package.json dist",
-    "build:docs": "rm -rf dist && npm run cpx-run && node docs-gen.js",
-    "predeploy": "npm run build:docs",
-    "deploy": "gh-pages -d dist"
+    "start": "nodemon index.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -21,20 +20,18 @@
     "url": "https://github.com/rjoydip/what-is/issues"
   },
   "homepage": "https://github.com/rjoydip/what-is#readme",
-  "dependencies": {
-    "fs-extra": "^6.0.1",
-    "highlight.js": "^9.12.0",
-    "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^5.0.2",
-    "markdown-it-table-of-contents": "^0.4.0",
-    "mkdirp": "^0.5.1",
-    "mustache": "^2.3.0",
-    "pretty": "^2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "cpx": "^1.5.0",
-    "gh-pages": "^1.2.0",
-    "micro": "^9.3.2",
-    "send": "^0.16.2"
+    "humanize-string": "^1.0.2",
+    "nodemon": "^1.18.3",
+    "read-pkg-up": "^4.0.0",
+    "shelljs": "^0.8.2",
+    "vuepress": "^0.13.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "docs/*"
+    ],
+    "ext": "js"
   }
 }
