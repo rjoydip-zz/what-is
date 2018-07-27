@@ -3,11 +3,13 @@
   "title": "What Is",
   "version": "1.0.0",
   "description": "What is in javascript?",
-  "main": "index.js",
+  "main": "docs-gen.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon npm run docs:gen",
+    "docs:gen": "node docs-gen.js",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,6 @@
     "ignore": [
       "docs/*"
     ],
-    "ext": "js"
+    "ext": "js,md"
   }
 }

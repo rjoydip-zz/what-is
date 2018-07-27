@@ -1,10 +1,17 @@
-#!/usr/bin/env sh
+#! /usr/bin/env sh
 
 # abort on errors
 set -e
 
+# generate docs
+npm run docs:gen prod
+
 # build
 npm run docs:build
+
+# Copy README.md to dist
+
+cp README.md docs/.vuepress/dist
 
 # navigate into the build output directory
 cd docs/.vuepress/dist
@@ -16,6 +23,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:rjoydip/what-is.git master:gh-pages
+git push -f https://github.com/rjoydip/what-is.git master:gh-pages
 
 cd -
